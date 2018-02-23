@@ -2,205 +2,199 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://101.200.76.159:4567/404.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/503.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/agent/Handinstall/handinstall_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/agent/Install/install_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/agent/Uninstall/uninstall_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/agent/Update/update_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/agent/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Ajax/ajax_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Analysis/analysis_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Business/business_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Conversation/conversation_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Dashboad/dashboard_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Javascript/javascript_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Pageview/pageview_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Pageview1/pageview_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Read.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Setting/.setting_index.html.md.swp</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Setting/Read.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Setting/setting_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Statistics/statistics_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/Trace/trace_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/book_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/contact/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/contact/contact.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/googlefc8e86d4f7e64e0b.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/qa/Noapp/noapp_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/qa/Qahelp/qahelp_index.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/qa/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/quick-start/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/quick-start/dr.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/summary.html</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://101.200.76.159:4567/.index.html.erb.swp</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://101.200.76.159:4567/</loc>
-    <lastmod>2017-05-22T00:00:00+08:00</lastmod>
+    <lastmod>2018-02-23T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

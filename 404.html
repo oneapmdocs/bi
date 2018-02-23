@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="keywords" content="端到端应用性能管理,Application Insight,OneAPM Ai">
-<meta name="description" content="OneAPM Application Insight是一个真实可见的应用性能监控系统，从用户体验到网络服务，直至应用代码, 帮助您完成端到端的应用性能管理，OneAPM Ai通过 Apdex、报警、错误率让您了解应用性能对用户使用体验的影响，从而挖掘应用可优化的范围">
+    <meta name="keywords" content="前端性能监控,Browser Insight,网站监测平台,网站性能测试,移动端页面测试工具,CDN网页加速效果监控">
+<meta name="description" content="OneAPM Browser Insight是一个真实可见的前端性能监控系统，能够为您提供Web前端性能监控，OneAPM Bi从页面加载、AJAX 加载，页面 Trace、地理位置等多个角度，度量应用性能，为您前端性能优化、测试提供有力的数据支持。">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta charset="utf-8">
 <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
@@ -57,6 +57,10 @@
   color: #dee5e7;
   background-color: #4e5d62;
 }
+.highlight .gp {
+  color: #a8e1fe;
+  font-weight: bold;
+}
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
   color: #6c8b9f;
   font-style: italic;
@@ -71,8 +75,9 @@
   background-color: #cc0000;
 }
 .highlight .gr {
-  color: #fefeec;
-  background-color: #cc0000;
+  color: #cc0000;
+  font-weight: bold;
+  font-style: italic;
 }
 .highlight .k, .highlight .kd, .highlight .kv {
   color: #f6dd62;
@@ -80,6 +85,7 @@
 }
 .highlight .o, .highlight .ow {
   color: #4df4ff;
+  font-weight: bold;
 }
 .highlight .p, .highlight .pi {
   color: #4df4ff;
@@ -198,6 +204,9 @@
 .highlight .w {
   color: #BBBBBB;
 }
+.highlight .go {
+  color: #BBBBBB;
+}
 .highlight .nf {
   color: #a8e1fe;
 }
@@ -213,8 +222,6 @@
 }
 </style>
 
-    <script src="/javascripts/sine-waves.js"></script>
-<script src="/javascripts/sine-waves-action-header.js"></script>
   </head>
 
   <body>
@@ -249,7 +256,7 @@
 				<li>
 					<a href="/book/">功能说明</a>
 				</li>
-	
+
 				<li>
 					<a href="/qa/">常见问题</a>
 				</li>
@@ -259,10 +266,10 @@
 			</ul>
 			<ul class="login-list">
 				<li>
-					<a href="http://user.oneapm.com/pages/v2/login?from=ai-docs" class="btn outline-dark" id="loginIn">登录</a>
+					<a href="http://user.oneapm.com/pages/v2/login?from=bi-docs" class="btn outline-dark" id="loginIn">登录</a>
 				</li>
 				<li>
-					<a href="https://user.oneapm.com/pages/v2/signup?from=ai-docs" class="btn inside-yellow" id="signUp">注册</a>
+					<a href="https://user.oneapm.com/pages/v2/signup?from=bi-docs" class="btn inside-yellow" id="signUp">注册</a>
 				</li>
 			</ul>
 		</div>
@@ -389,13 +396,6 @@
           </li>
         </ul>
       </div>
-   <!--   <div class="footer-nav-col">
-        <ul class="footer-nav-list">
-         <li><a href="http://cloudinsight.oneapm.com/about/group.html">关于</a></li>
-          <li><a href="http://cloudinsight.oneapm.com/about/group.html">团队介绍</a></li>
-          <li><a href="http://cloudinsight.oneapm.com/about/cooperation.html">合作伙伴</a></li>
-        </ul>
-      </div>-->
     </div>
     <div class="footer-support">
           <ul class="footer-support-list">
@@ -410,7 +410,7 @@
   <div class="container">
     <div class="copyright-link">
  <!--     <div class="socialLink">
-        <a href="https://github.com/cloudinsight/cloudinsight.github.io" class="social-btn github" target="_blank">
+        <a href="https://github.com/oneapm/cloudinsight.github.io" class="social-btn github" target="_blank">
           <img src="/images/home/github.svg">
           <p class="hidden-xs hidden-xxs">Github</p>
         </a>
@@ -439,8 +439,9 @@
     </div>
    <div class="icp">
                 <small class="copyright">Copyright © 2008-<span id="cr-end-time"></span> 北京蓝海讯通科技股份有限公司 <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备14028342号-2</a> 京公网安备 11010802016192 <a href="../privacy_policy.html">服务协议</a> </small>
-            </div> 
+            </div>
   </div>
 </div>
+
   </body>
 </html>

@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="keywords" content="端到端应用性能管理,Application Insight,OneAPM Ai">
-<meta name="description" content="OneAPM Application Insight是一个真实可见的应用性能监控系统，从用户体验到网络服务，直至应用代码, 帮助您完成端到端的应用性能管理，OneAPM Ai通过 Apdex、报警、错误率让您了解应用性能对用户使用体验的影响，从而挖掘应用可优化的范围">
+    <meta name="keywords" content="前端性能监控,Browser Insight,网站监测平台,网站性能测试,移动端页面测试工具,CDN网页加速效果监控">
+<meta name="description" content="OneAPM Browser Insight是一个真实可见的前端性能监控系统，能够为您提供Web前端性能监控，OneAPM Bi从页面加载、AJAX 加载，页面 Trace、地理位置等多个角度，度量应用性能，为您前端性能优化、测试提供有力的数据支持。">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta charset="utf-8">
 <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
@@ -57,6 +57,10 @@
   color: #dee5e7;
   background-color: #4e5d62;
 }
+.highlight .gp {
+  color: #a8e1fe;
+  font-weight: bold;
+}
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
   color: #6c8b9f;
   font-style: italic;
@@ -71,8 +75,9 @@
   background-color: #cc0000;
 }
 .highlight .gr {
-  color: #fefeec;
-  background-color: #cc0000;
+  color: #cc0000;
+  font-weight: bold;
+  font-style: italic;
 }
 .highlight .k, .highlight .kd, .highlight .kv {
   color: #f6dd62;
@@ -80,6 +85,7 @@
 }
 .highlight .o, .highlight .ow {
   color: #4df4ff;
+  font-weight: bold;
 }
 .highlight .p, .highlight .pi {
   color: #4df4ff;
@@ -198,6 +204,9 @@
 .highlight .w {
   color: #BBBBBB;
 }
+.highlight .go {
+  color: #BBBBBB;
+}
 .highlight .nf {
   color: #a8e1fe;
 }
@@ -247,7 +256,7 @@
 				<li>
 					<a href="/book/">功能说明</a>
 				</li>
-	
+
 				<li>
 					<a href="/qa/">常见问题</a>
 				</li>
@@ -257,10 +266,10 @@
 			</ul>
 			<ul class="login-list">
 				<li>
-					<a href="http://user.oneapm.com/pages/v2/login?from=ai-docs" class="btn outline-dark" id="loginIn">登录</a>
+					<a href="http://user.oneapm.com/pages/v2/login?from=bi-docs" class="btn outline-dark" id="loginIn">登录</a>
 				</li>
 				<li>
-					<a href="https://user.oneapm.com/pages/v2/signup?from=ai-docs" class="btn inside-yellow" id="signUp">注册</a>
+					<a href="https://user.oneapm.com/pages/v2/signup?from=bi-docs" class="btn inside-yellow" id="signUp">注册</a>
 				</li>
 			</ul>
 		</div>
@@ -507,8 +516,23 @@
 <p><strong>创建关键业务</strong></p>
 
 <ul>
-<li>创建关键业务的页面由关键业务名称、待选择的页面和已选择的页面 3 部分组成，用户选择一个或者多个 URL，输入关键业务名称，创建保存关键业务配置。</li>
+<li>创建关键业务的页面由关键业务名称、优先级、匹配方式、匹配规则列表4部分组成，用户输入业务名称，选择优先级，然后选择精确匹配和模糊匹配两种方式，匹配一个或者多个url，创建保存关键业务配置。
+其中业务优先级 1-10 依次提高，优先级越高业务列表中最先展示，同级别优先级下，以创建时间较早为优先展示项。
+精度匹配即全文本匹配，只有相关 URL 信息和输入的 URL 规则完全一致，才会被采集。
+比如：
+关键业务请求设置为“http://bi.oneapm.com” 
+只有发送请求为“http://bi.oneapm.com” 的才会被匹配。 “http://bi.oneapm.com/login” 则不会被匹配。</li>
 </ul>
+
+<p>模糊匹配即使用通配符匹配，使用 _  和  % 代替相应 URL 信息，自动聚合满足匹配表达式的 URL 子数据。
+比如：
+http://bi.oneapm.com/a/service?name=hjjz
+http://bi.oneapm.com/b/service?name=whjy
+http://bi.oneapm.com/c/service?name=whjy
+添加匹配规则：
+http://bi.oneapm.com/_/service?name=%jy
+则匹配后面两条 URL 。
+如果 URL 需要匹配 * 或者 ？ 需要加转义字符“\”</p>
 
 <p><img src="/images/book/cru_business01.png" alt="Cru business01" /></p>
 
@@ -521,8 +545,8 @@
 <p><img src="/images/book/cru_business02.png" alt="Cru business02" /></p>
 
 <ul>
-<li><p>点击创建的关键业务名称前的三角按钮可以查看查看子集 URL 性能数据。</p></li>
-<li><p>点击单条关键业务可以展示出该关键业务的详情，由最近一小时趋势图和最近十天历史数据 2 部分组成。</p></li>
+<li><p>关键业务列表展示了创建的关键业务名称、访问量、整页加载完成时间、Web 应用程序耗时、网络耗时、页面加载耗时、资源加载耗时、Apdex 和更新 9 个维度。</p></li>
+<li><p>点击单条关键业务可以展示出该关键业务的详情，由最近一小时趋势图、最近十天历史数据和关键业务子数据 3部分组成。</p></li>
 </ul>
 
 <p><img src="/images/book/cru_business04.png" alt="Cru business04" /></p>
@@ -536,6 +560,12 @@
 
 <ul>
 <li>展示了当前关键业务的历史时间、PV、响应时间、Web 应用耗时、网络耗时、页面加载耗时、资源加载耗时和 Apdex 8 个维度。</li>
+</ul>
+
+<p><img src="/images/book/cru_business06.png" alt="Cru business06" /></p>
+
+<ul>
+<li>业务子数据：将满足关键业务规则的url性能进行统计，展示其对应的PV、响应时间、web应用耗时、网络耗时、页面加载耗时、资源加载耗时和Apdex数据。</li>
 </ul>
 
             <!--<hr style="margin-top: 50px;" />

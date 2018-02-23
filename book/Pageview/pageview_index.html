@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
   <head>
-    <meta name="keywords" content="端到端应用性能管理,Application Insight,OneAPM Ai">
-<meta name="description" content="OneAPM Application Insight是一个真实可见的应用性能监控系统，从用户体验到网络服务，直至应用代码, 帮助您完成端到端的应用性能管理，OneAPM Ai通过 Apdex、报警、错误率让您了解应用性能对用户使用体验的影响，从而挖掘应用可优化的范围">
+    <meta name="keywords" content="前端性能监控,Browser Insight,网站监测平台,网站性能测试,移动端页面测试工具,CDN网页加速效果监控">
+<meta name="description" content="OneAPM Browser Insight是一个真实可见的前端性能监控系统，能够为您提供Web前端性能监控，OneAPM Bi从页面加载、AJAX 加载，页面 Trace、地理位置等多个角度，度量应用性能，为您前端性能优化、测试提供有力的数据支持。">
 <meta content="IE=edge" http-equiv="X-UA-Compatible">
 <meta charset="utf-8">
 <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
@@ -57,6 +57,10 @@
   color: #dee5e7;
   background-color: #4e5d62;
 }
+.highlight .gp {
+  color: #a8e1fe;
+  font-weight: bold;
+}
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
   color: #6c8b9f;
   font-style: italic;
@@ -71,8 +75,9 @@
   background-color: #cc0000;
 }
 .highlight .gr {
-  color: #fefeec;
-  background-color: #cc0000;
+  color: #cc0000;
+  font-weight: bold;
+  font-style: italic;
 }
 .highlight .k, .highlight .kd, .highlight .kv {
   color: #f6dd62;
@@ -80,6 +85,7 @@
 }
 .highlight .o, .highlight .ow {
   color: #4df4ff;
+  font-weight: bold;
 }
 .highlight .p, .highlight .pi {
   color: #4df4ff;
@@ -198,6 +204,9 @@
 .highlight .w {
   color: #BBBBBB;
 }
+.highlight .go {
+  color: #BBBBBB;
+}
 .highlight .nf {
   color: #a8e1fe;
 }
@@ -247,7 +256,7 @@
 				<li>
 					<a href="/book/">功能说明</a>
 				</li>
-	
+
 				<li>
 					<a href="/qa/">常见问题</a>
 				</li>
@@ -257,10 +266,10 @@
 			</ul>
 			<ul class="login-list">
 				<li>
-					<a href="http://user.oneapm.com/pages/v2/login?from=ai-docs" class="btn outline-dark" id="loginIn">登录</a>
+					<a href="http://user.oneapm.com/pages/v2/login?from=bi-docs" class="btn outline-dark" id="loginIn">登录</a>
 				</li>
 				<li>
-					<a href="https://user.oneapm.com/pages/v2/signup?from=ai-docs" class="btn inside-yellow" id="signUp">注册</a>
+					<a href="https://user.oneapm.com/pages/v2/signup?from=bi-docs" class="btn inside-yellow" id="signUp">注册</a>
 				</li>
 			</ul>
 		</div>
@@ -518,7 +527,7 @@
 
 <ul>
 <li><p>访问页面是用户打开网页的唯一地址，这个地址的核心是 URL，同时 URL 也是 Bi 产品的核心时间；
-对 URL 采集及命名参见「应用设置」模块的URL采集设置；</p></li>
+对 URL 采集及命名参见「设置」模块的URL采集设置；</p></li>
 <li><p>点击单条 URL，可以查看详情；</p></li>
 <li><p>分性能详情、后端事务、AJAX 调用、慢加载追踪 4 部分。</p></li>
 </ul>
