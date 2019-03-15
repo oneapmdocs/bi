@@ -67,12 +67,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://101.200.76.159:4567/book/Dashboad/dashboard_index.html</loc>
-    <lastmod>2019-03-15T00:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://101.200.76.159:4567/book/Javascript/javascript_index.html</loc>
     <lastmod>2019-03-15T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -134,6 +128,12 @@
   </url>
   <url>
     <loc>http://101.200.76.159:4567/book/book_index.html</loc>
+    <lastmod>2019-03-15T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://101.200.76.159:4567/book/Dashboard/dashboard_index.html</loc>
     <lastmod>2019-03-15T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
